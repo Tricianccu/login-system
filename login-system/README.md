@@ -89,7 +89,7 @@ python app.py
 - 若遇到 CORS 問題，請檢查後端的 CORS 設置。
 
 ## 貢獻
-如果你有任何建議或改進，歡迎提交 Pull Request 或開啟 Issue。
+如果有任何建議或改進，歡迎提交 Pull Request 或開啟 Issue。
 
 
 
