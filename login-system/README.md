@@ -17,14 +17,14 @@
 
 ## 安裝指南
 
-### 1.  Clone a repository
+### 1.  Clone the repository
 
 ```bash
 git clone <https://github.com/Tricianccu/login-system.git>
-cd login-system-demo
+cd login-system
 ```
 
-### 2. 安裝後端依賴
+### 2. 安裝後端
 
 在 backend 目錄下，創建虛擬環境並安裝所需的庫：
 
@@ -34,7 +34,6 @@ python -m venv venv
 source venv/bin/activate  # 在 macOS/Linux 上
 venv\Scripts\activate  # 在 Windows 上
 pip install -r requirements.txt
-cd login-system-demo
 ```
 
 ### 3. 初始化資料庫
@@ -45,7 +44,7 @@ cd login-system-demo
 python app.py
 ```
 
-### 4. 安裝前端依賴
+### 4. 安裝前端
 
 在 frontend 目錄下，安裝所需的 npm 套件：
 
@@ -54,7 +53,7 @@ cd ../frontend
 npm install
 ```
 
-### 5. 啟動前端應用
+### 5. 啟動前端
 
 在 frontend 目錄下啟動開發伺服器：
 
@@ -62,7 +61,20 @@ npm install
 quasar dev
 ```
 
-### 6. 啟動後端應用
+如果遇到 quasar: command not found 的錯誤，安裝 Quasar CLI：
+
+```bash
+npm install -g @quasar/cli
+```
+
+確保 node.js 和 npm 已安裝，並且在系統的環境變數中可用
+
+```bash
+node -v  # 查看 node.js 版本
+npm -v   # 查看 npm 版本
+```
+
+### 6. 啟動後端
 
 如果後端應用尚未啟動，請在 backend 目錄下運行：
 
@@ -89,17 +101,8 @@ python app.py
 - 若遇到 CORS 問題，請檢查後端的 CORS 設置。
 
 ## 貢獻
-如果你有任何建議或改進，歡迎提交 Pull Request 或開啟 Issue。
+如果有任何建議或改進，歡迎提交 Pull Request 或開啟 Issue。
 
-## 授權
-此專案使用 MIT License 授權。
-
-### 說明
-
-- 這個 `README.md` 包含了專案的簡介、技術棧、安裝指南、使用說明以及貢獻和授權資訊。
-- 根據你的實際情況，你可以對內容進行調整或擴展。
-
-如果你需要更改或添加任何內容，隨時告訴我！
 
 
 
