@@ -41,6 +41,7 @@ pip install -r requirements.txt
 運行 app.py 來初始化資料庫並創建用戶資料表：
 
 ```bash
+cd backend
 python app.py
 ```
 
@@ -103,15 +104,6 @@ python app.py
 ## 貢獻
 如果你有任何建議或改進，歡迎提交 Pull Request 或開啟 Issue。
 
-## 授權
-此專案使用 MIT License 授權。
-
-### 說明
-
-- 這個 `README.md` 包含了專案的簡介、技術棧、安裝指南、使用說明以及貢獻和授權資訊。
-- 根據你的實際情況，你可以對內容進行調整或擴展。
-
-如果你需要更改或添加任何內容，隨時告訴我！
 
 
 
